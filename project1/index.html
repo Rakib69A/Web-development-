@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakib Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<!-- Staatliches Font -->
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<!-- Anton -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body {
+        font-family: 'Staatliches', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        height: 3444px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid gray; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 134px;
+        height: 100px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 26px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 2px solid black;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid black;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: salmon;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Staatliches', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: orange;
+        background-color: grey;
+    }
+
+    .container {
+        text-align: center;
+        font-size: 30px;
+        border: 2px solid green;
+        margin: 116px 79px;
+        padding: 43px 85px;
+        width: 33%;
+        border-radius: 34px;
+        font-family: 'Anton', sans-serif;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 448px;;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: 'Staatliches', cursive;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>Rakib Fitness</div>
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active ">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- rightbox for buttons  -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Pabna now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name:">    
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age:">    
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender:">    
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email:">    
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number :">    
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

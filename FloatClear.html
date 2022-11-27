@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        * {}
+
+        body {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .container {
+            width: 1000px;
+            border: 3px solid peachpuff;
+            margin: auto;
+        }
+
+        .item {
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px;
+            background-color: rgb(177, 227, 227);
+        }
+
+        #fruits {
+            float: left;
+            width: 45%;
+        }
+
+        #computer {
+            float: left;
+            width: 45%;
+        }
+
+        #stationary {
+            /* float: left; */
+            /* clear: left; */
+            clear: both;
+            width: 100%;
+        }
+
+        p,
+        h3 {
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+
+        h1 {
+            margin: 23px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my shope</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet
+                dolores atque, magni animi odio nihil eum, laboriosam modi ratione temporibus tempore maxime nostrum.
+                Omnis perspiciatis quidem quasi illo quas neque, molestias inventore tempora! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Architecto voluptas consequuntur culpa omnis officia, officiis ducimus
+                dolore ipsa nisi aspernatur inventore odit sequi exercitationem voluptates illum consequatur minima
+                veritatis repellat consectetur fuga perspiciatis doloribus.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet
+                dolores atque, magni animi odio nihil eum, laboriosam modi ratione temporibus tempore maxime nostrum.
+                Omnis perspiciatis quidem quasi illo quas neque, molestias inventore tempora! Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Unde recusandae in similique aspernatur numquam aut dicta
+                reprehenderit doloremque perferendis atque sit, consequuntur assumenda. Numquam cumque natus autem saepe
+                quibusdam at, optio soluta molestias nemo.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationary" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet
+                dolores atque, magni animi odio nihil eum, laboriosam modi ratione temporibus tempore maxime nostrum.
+                Omnis perspiciatis quidem quasi illo quas neque, molestias inventore tempora!</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet
+                dolores atque, magni animi odio nihil eum, laboriosam modi ratione temporibus tempore maxime nostrum.
+                Omnis perspiciatis quidem quasi illo quas neque, molestias inventore tempora!</p>
+        </div>
+    </div>
+</body>
+
+</html>

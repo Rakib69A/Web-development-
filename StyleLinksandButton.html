@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo selectors and designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(123, 222, 255);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        a:hover{
+            color:rgb(17, 54, 223);
+            background-color: white;
+        }
+        a:visited{
+            background-color: yellow;
+        }
+        a:active{
+            background-color: darkblue;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .BTN{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            background-color:rgb(52, 151, 80);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+        .BTN:hover{
+            color: darkorange;
+            background-color: whitesmoke;
+            border: 2px solid rgb(235, 13, 13);
+        }
+    </style>
+</head>
+<body>
+    <div id="cont1" class="container">
+        <h3>this is my heading</h3>
+        <p></p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci nihil recusandae perspiciatis iusto veniam unde quam maxime modi soluta optio voluptatibus voluptate tenetur aliquid dolorum doloribus deserunt, ut minus. Aliquam vel atque quas fugiat.</p>
+    <a href="https:\\programiz.com" class="BTN">Read more</a>
+    <button class="BTN">Contact us</button>
+    </div>
+    
+</body>
+</html>
